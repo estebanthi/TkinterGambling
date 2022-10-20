@@ -27,6 +27,8 @@ class Model:
         else:
             self.losses += 1
 
+        self.player_bankroll = round(self.player_bankroll, 2)
+
         if self.player_bankroll <= 0:
             return False
 

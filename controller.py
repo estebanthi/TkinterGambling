@@ -39,4 +39,3 @@ class Controller:
         self.model.wins = 0
         self.model.losses = 0
         self.view.update_view()
-
